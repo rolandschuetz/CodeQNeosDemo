@@ -1,0 +1,9 @@
+prototype(CodeQ.Site:Content.Image) < prototype(Neos.Fusion:Tag) {
+	tagName = 'img'
+	attributes.alternativeText = ${node.properties.alternativeText}
+	attributes.src = CodeQ.Site:Component.ImageUri {
+		@context.asset = ${q(node).property('image')}
+		@context.maximumWidth = 900
+	}
+	@process.contentElementWrapping = ContentElementWrapping
+}

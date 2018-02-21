@@ -1,0 +1,24 @@
+{
+	"name": "codeq/skeleton",
+	"description": "Best practice skeleton for Neos",
+	"config": {
+		"vendor-dir": "Packages/Libraries",
+		"bin-dir": "bin"
+	},
+	"minimum-stability": "beta",
+	"require": {
+		"codeq/site": "1.0.x-dev"
+	},
+	"scripts": {
+		"post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+		"post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+		"post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+		"post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "Source/CodeQ.Site"
+		}
+	]
+}

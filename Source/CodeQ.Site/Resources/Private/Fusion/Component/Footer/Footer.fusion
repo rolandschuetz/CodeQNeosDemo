@@ -1,0 +1,12 @@
+prototype(CodeQ.Site:Component.Footer) < prototype(CodeQ.SimpleTemplate:Template) {
+	@context.node = ${site}
+	year = ${Date.format(Date.now(), 'Y')}
+	footerInfo = Neos.Fusion:Tag {
+		content = ${site.properties.footerInfo}
+		content.@process.convertUris = Neos.Neos:ConvertUris
+		@process.contentElementEditable = ContentElementEditable {
+			property = 'footerInfo'
+		}
+	}
+	@process.contentElementWrapping = ContentElementWrapping
+}

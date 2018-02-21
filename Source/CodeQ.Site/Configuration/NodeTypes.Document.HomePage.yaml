@@ -1,0 +1,20 @@
+'CodeQ.Site:Document.HomePage':
+  superTypes:
+    'CodeQ.Site:Document': true
+    'CodeQ.Site:Document.Page': true
+    'CodeQ.Site:Constraint.Document.Restricted': true
+  ui:
+    label: 'Homepage'
+    icon: icon-globe
+  constraints:
+    nodeTypes:
+      'CodeQ.ManualPage:ManualPage': true
+  properties:
+    footerInfo:
+      type: string
+      ui:
+        inlineEditable: true
+        aloha:
+          placeholder: 'Footer Contact info'
+          link:
+            a: true
