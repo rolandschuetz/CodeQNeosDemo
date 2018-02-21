@@ -17,10 +17,10 @@ deployment:
   prod:
     branch: master
     commands:
-      - cd ~/ansible-deploy && ansible-playbook ~/ansible-deploy/deploy-alpine.yml --extra-vars "REPOSITORY_URL=https://github.com/rolandschuetz/REPOSITORY_URL DOMAIN=DOMAIN.at PROTOCOL=https HOST=THEHOST PORT=THEPORTNUMBER":
+      - cd ~/ansible-deploy && ansible-playbook ~/ansible-deploy/deploy-alpine.yml --extra-vars "REPOSITORY_URL=https://github.com/rolandschuetz/CodeQNeosDemo DOMAIN=demo.codeq.at PROTOCOL=https HOST=139.59.138.199 PORT=1243":
           timeout: 2400
 #  preview:
 #    branch: dev
 #    commands:
-#      - cd ~/ansible-deploy && ansible-playbook ~/ansible-deploy/deploy-alpine.yml --extra-vars "REPOSITORY_URL=https://github.com/rolandschuetz/REPOSITORY_URL VERSION=dev DOMAIN=DOMAIN.at PROTOCOL=https HOST=THEHOST PORT=THEPORTNUMBER":
+#      - cd ~/ansible-deploy && ansible-playbook ~/ansible-deploy/deploy-alpine.yml --extra-vars "REPOSITORY_URL=https://github.com/rolandschuetz/CodeQNeosDemo VERSION=dev DOMAIN=DOMAIN.at PROTOCOL=https HOST=139.59.138.199 PORT=THEPORTNUMBER":
 #          timeout: 2400
