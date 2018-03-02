@@ -1,0 +1,7 @@
+prototype(Jonnitto.Image:Image) {
+    attributes {
+        class = Neos.Fusion:RawArray {
+            bleed = ${q(node).property('bleed') ? 'jonnitto-image--bleed' : 'container'}
+        }
+    }
+}

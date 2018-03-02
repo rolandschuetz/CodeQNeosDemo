@@ -1,0 +1,15 @@
+'Jonnitto.Image:Image':
+  superTypes:
+    'Carbon.Image:Title': false
+    'Carbon.Image:Lightbox': false
+    'Carbon.Image:Caption': false
+    'Carbon.Image:Link': true
+  ui:
+    # image should be before image meta
+    inspector:
+      groups:
+        imagemeta:
+          position: 300
+  properties:
+    bleed:
+      reloadIfChanged: true

@@ -17,26 +17,26 @@ Neos:
             options:
               variables:
                 path: '404' # skip suffix in notfound as well
-  # ContentRepository:
-  #   contentDimensions:
-  #     language:
-  #       label: Sprache
-  #       icon: icon-language
-  #       # The default dimension that is applied when creating nodes without specifying a dimension
-  #       default: de
-  #       # The default preset to use if no URI segment was given when resolving languages in the router
-  #       defaultPreset: de
-  #       presets:
+  ContentRepository:
+    contentDimensions:
+      language:
+        label: Sprache
+        icon: icon-language
+        # The default dimension that is applied when creating nodes without specifying a dimension
+        default: de
+        # The default preset to use if no URI segment was given when resolving languages in the router
+        defaultPreset: de
+        presets:
+          de:
+            label: Deutsch
+            values:
+              - de
+            uriSegment: ''
   #         en:
   #           label: English
   #           values:
   #             - en
   #           uriSegment: en
-  #         de:
-  #           label: Deutsch
-  #           values:
-  #             - de
-  #           uriSegment: de
   Neos:
     eventLog:
       enabled: true
@@ -113,6 +113,34 @@ Sitegeist:
         Fusion:
           options:
             excludedFileNames: ['Root.fusion', 'Shame.fusion', 'Override.fusion']
+Jonnitto:
+  AssetList:
+    includeCss: true
+    container: 'container'
+    # text:
+    #   headlineTag: strong
+    # thumbnail:
+    #   headlineTag: strong
+    #   maximumWidth: 400
+  Headline:
+    container: 'container'
+  PrettyEmbedYoutube:
+    # includeCss: true
+    # includeJavascript: true
+    # imgResultion: maxresdefault
+    # maximumWidth: 1280
+    wrapper: 'container'
+  Text:
+    container: 'container'
+  MultiColumn:
+    container: 'container'
+    row: row
+
+Carbon:
+  Image:
+    srcset:
+      - 1
+      - 2
 
 Carbon:
   IncludeAssets:

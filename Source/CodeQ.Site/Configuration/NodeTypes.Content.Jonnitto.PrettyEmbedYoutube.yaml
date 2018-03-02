@@ -1,0 +1,11 @@
+'Jonnitto.PrettyEmbedYoutube:YouTube':
+  properties:
+    lightbox:
+      ui:
+        inspector:
+          group: ~
+    showInfo:
+      defaultValue: false
+      ui:
+        inspector:
+          group: ~

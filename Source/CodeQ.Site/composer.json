@@ -24,9 +24,15 @@
 		"sitegeist/neosguidelines": "^1.1",
 		"codeq/fusionprototypegenerator": "*",
 		"codeq/simpletemplate": "*",
+		"carbon/link": "^0.4.8",
 
-		"codeq/contentreferences": "~1.0",
-		"carbon/link": "^0.4.8"
+		"neos/nodetypes-contentreferences": "*",
+		"jonnitto/text": "^0.1.5",
+		"jonnitto/image": "^1.0",
+		"jonnitto/headline": "^1.0",
+		"jonnitto/assetlist": "^2.1",
+		"jonnitto/multicolumn": "^2.0",
+		"jonnitto/prettyembedyoutube": "^4.0"
 	},
 	"autoload": {
 		"psr-4": {

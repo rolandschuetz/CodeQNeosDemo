@@ -1,8 +1,0 @@
-'CodeQ.Site:Content.Text':
-  superTypes:
-    'CodeQ.Site:Content': true
-    'CodeQ.Site:Mixin.Text': true
-  ui:
-    label: Text
-    icon: icon-file-text
-    position: 1

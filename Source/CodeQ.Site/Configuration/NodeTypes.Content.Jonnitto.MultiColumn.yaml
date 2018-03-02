@@ -1,0 +1,4 @@
+'Jonnitto.MultiColumn:ContentCollection':
+  constraints:
+    nodeTypes:
+      'Jonnitto.Plyr:Content': false

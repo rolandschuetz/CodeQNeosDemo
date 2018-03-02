@@ -1,8 +1,0 @@
-'CodeQ.Site:Content.Headline':
-  superTypes:
-    'CodeQ.Site:Content': true
-    'CodeQ.Site:Mixin.Title': true
-  ui:
-    label: Headline
-    icon: icon-header
-    position: 2
