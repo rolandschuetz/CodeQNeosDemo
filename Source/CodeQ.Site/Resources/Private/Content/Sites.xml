@@ -1,27 +1,911 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
  <site name="Site" state="1" siteResourcesPackageKey="CodeQ.Site" siteNodeName="site">
-	<nodes formatVersion="2.0">
-	 <node nodeName="site">
-		<variant workspace="live" nodeType="CodeQ.Site:Document.HomePage" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-		 <dimensions>
+  <nodes formatVersion="2.0">
+   <node identifier="d181924d-d134-4484-ae4a-5a5b16cf3193" nodeName="site">
+    <variant sortingIndex="100" workspace="live" nodeType="CodeQ.Site:Document.HomePage" version="5" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+      <language>de</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2018-02-21T15:16:34+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:54+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:53+00:00</lastPublicationDateTime>
+     <properties>
+      <title __type="string">Home</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+      <footerInfo __type="string">Custom Footer text can be written here</footerInfo>
+      <canonicalLink __type="string"></canonicalLink>
+      <footerItems __type="array">
+       <entry0 __type="string">098c8693-4fbf-4d64-a657-385c5c223b67</entry0>
+       <entry1 __type="string">223d0ceb-5642-4a8b-b186-a9592c60f5a4</entry1>
+      </footerItems>
+     </properties>
+    </variant>
+    <node identifier="84d9a617-5045-d909-bd82-c14368f050a1" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-02-21T15:16:34+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:54+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:53+00:00</lastPublicationDateTime>
+      <properties/>
+     </variant>
+     <node identifier="db6eca87-b037-4fc3-a5bd-febff12bd73b" nodeName="node-08ucnhrxlwwja">
+      <variant sortingIndex="394" workspace="live" nodeType="Jonnitto.MultiColumn:3" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-02-21T16:00:49+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T16:08:43+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T16:08:42+00:00</lastPublicationDateTime>
+       <properties>
+        <layoutMD __type="string">4-4-4</layoutMD>
+       </properties>
+      </variant>
+      <node identifier="de7b5fba-07f5-a591-1908-fa46af710fcb" nodeName="column-1">
+       <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.MultiColumn:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-02-21T16:00:49+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T16:08:43+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T16:08:42+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="d1a8a855-883e-4d28-aa4c-8a91b64c9d93" nodeName="node-8irh5a7q6c21v">
+        <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.Image:Image" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:23:52+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+         <properties>
+          <bleed __type="boolean"></bleed>
+          <image __type="object" __identifier="9252cb70-c7f3-4e42-9e32-04716429c83f" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;9252cb70-c7f3-4e42-9e32-04716429c83f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;iPhone_X_2_devices_YELLOW_2880px.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;772b4bcf7e1ba8fa5b6542162d458530dba80bb1&quot;,&quot;hash&quot;:&quot;772b4bcf7e1ba8fa5b6542162d458530dba80bb1&quot;,&quot;__identity&quot;:&quot;405679af-3dd4-483e-a973-71b86485e455&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="b2a3c708-e0e3-864f-d5a0-030f9f785b84" nodeName="column-2">
+       <variant sortingIndex="200" workspace="live" nodeType="Jonnitto.MultiColumn:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-02-21T16:00:49+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T16:08:43+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T16:08:42+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="7267d6ec-14dd-4a04-9e48-b6b1a1e2a09a" nodeName="node-rtixftcyhj117">
+        <variant sortingIndex="200" workspace="live" nodeType="Jonnitto.Text:Text" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-02-21T16:01:17+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="d3b7f7e5-d6ed-3743-9b69-d081b22d0829" nodeName="column-3">
+       <variant sortingIndex="300" workspace="live" nodeType="Jonnitto.MultiColumn:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-02-21T16:00:49+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T16:08:43+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T16:08:42+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="c11015ed-f3f8-4384-ab80-a9affe2cd8ed" nodeName="node-0g90s5k91zhhk">
+        <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.Image:Image" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:24:00+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+         <properties>
+          <bleed __type="boolean"></bleed>
+          <image __type="object" __identifier="c5fc3ea8-599e-4512-ad69-b67bcac8deef" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c5fc3ea8-599e-4512-ad69-b67bcac8deef&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;shutterstock_350002286.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a948167dd31f60c2b5712cfd135eb8bb02241ea4&quot;,&quot;hash&quot;:&quot;a948167dd31f60c2b5712cfd135eb8bb02241ea4&quot;,&quot;__identity&quot;:&quot;83e06349-dfc3-48cd-9f09-4be6c26b427c&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="1f3ed413-750e-4458-bea0-828c9eb03334" nodeName="node-133jgnkrwmr8z">
+      <variant sortingIndex="369" workspace="live" nodeType="Jonnitto.Headline:Headline" version="8" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:04:39+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:50+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:49+00:00</lastPublicationDateTime>
+       <properties>
+        <tagName __type="string">h2</tagName>
+        <title __type="string"> YouTube Video with Custom Preview Image and Popup</title>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="188f5df1-39ef-4e72-8458-1397657038ed" nodeName="node-3zaysc1srxeoh">
+      <variant sortingIndex="444" workspace="live" nodeType="Jonnitto.MultiColumn:4" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:26:44+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="724291ac-4efd-b829-02db-612cb1883dfa" nodeName="column-1">
+       <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.MultiColumn:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:26:44+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="07ebf487-09d8-4850-83a2-89fe3ee0ed66" nodeName="node-8irh5a7q6c21v">
+        <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.Image:Image" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:27:01+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+         <properties>
+          <bleed __type="boolean"></bleed>
+          <image __type="object" __identifier="9252cb70-c7f3-4e42-9e32-04716429c83f" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;9252cb70-c7f3-4e42-9e32-04716429c83f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;iPhone_X_2_devices_YELLOW_2880px.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;772b4bcf7e1ba8fa5b6542162d458530dba80bb1&quot;,&quot;hash&quot;:&quot;772b4bcf7e1ba8fa5b6542162d458530dba80bb1&quot;,&quot;__identity&quot;:&quot;405679af-3dd4-483e-a973-71b86485e455&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="9ffd40b7-022d-4dc3-d39f-3a749d62a456" nodeName="column-2">
+       <variant sortingIndex="200" workspace="live" nodeType="Jonnitto.MultiColumn:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:26:44+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="bd4b324a-536f-476b-a049-d3bffc1f132a" nodeName="node-rtixftcyhj117">
+        <variant sortingIndex="200" workspace="live" nodeType="Jonnitto.Text:Text" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:27:11+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="d3733467-9b33-05f6-46bd-467636321c5c" nodeName="column-3">
+       <variant sortingIndex="300" workspace="live" nodeType="Jonnitto.MultiColumn:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:26:44+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="67565533-b620-49d5-ba6d-2eeda58815f0" nodeName="node-rtixftcyhj117">
+        <variant sortingIndex="200" workspace="live" nodeType="Jonnitto.Text:Text" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:27:21+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+         <properties>
+          <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+</text>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="100e1a31-0566-20ff-787a-ebfcd37035c2" nodeName="column-4">
+       <variant sortingIndex="400" workspace="live" nodeType="Jonnitto.MultiColumn:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:26:44+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="6288a1f5-9679-4330-b33b-75f48f9b764b" nodeName="node-0g90s5k91zhhk">
+        <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.Image:Image" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:27:31+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+         <properties>
+          <bleed __type="boolean"></bleed>
+          <image __type="object" __identifier="c5fc3ea8-599e-4512-ad69-b67bcac8deef" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c5fc3ea8-599e-4512-ad69-b67bcac8deef&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;shutterstock_350002286.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a948167dd31f60c2b5712cfd135eb8bb02241ea4&quot;,&quot;hash&quot;:&quot;a948167dd31f60c2b5712cfd135eb8bb02241ea4&quot;,&quot;__identity&quot;:&quot;83e06349-dfc3-48cd-9f09-4be6c26b427c&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="5cc885f5-cec8-4150-8695-7ca337bccbed" nodeName="node-5e832ua6dp8xc">
+      <variant sortingIndex="391" workspace="live" nodeType="Jonnitto.MultiColumn:2" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:18:58+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:50+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:49+00:00</lastPublicationDateTime>
+       <properties>
+        <layoutSM __type="string">6-6</layoutSM>
+       </properties>
+      </variant>
+      <node identifier="16ba37cc-1cab-067d-ad85-41c89f3f4591" nodeName="column-1">
+       <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.MultiColumn:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:18:58+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:50+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:49+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="5b1f1e1f-2a49-4862-acf1-bc33ad5c08e2" nodeName="node-8irh5a7q6c21v">
+        <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.Image:Image" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:19:18+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:50+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:49+00:00</lastPublicationDateTime>
+         <properties>
+          <bleed __type="boolean"></bleed>
+          <image __type="object" __identifier="9252cb70-c7f3-4e42-9e32-04716429c83f" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;9252cb70-c7f3-4e42-9e32-04716429c83f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;iPhone_X_2_devices_YELLOW_2880px.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;772b4bcf7e1ba8fa5b6542162d458530dba80bb1&quot;,&quot;hash&quot;:&quot;772b4bcf7e1ba8fa5b6542162d458530dba80bb1&quot;,&quot;__identity&quot;:&quot;405679af-3dd4-483e-a973-71b86485e455&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+      <node identifier="dce3cca4-f729-136b-3f42-63fbbf85af6a" nodeName="column-2">
+       <variant sortingIndex="200" workspace="live" nodeType="Jonnitto.MultiColumn:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:18:58+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:50+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:49+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="58378dd2-30ed-4f23-9de1-ae097e01d055" nodeName="node-0g90s5k91zhhk">
+        <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.Image:Image" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:19:49+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:50+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:49+00:00</lastPublicationDateTime>
+         <properties>
+          <bleed __type="boolean"></bleed>
+          <image __type="object" __identifier="c5fc3ea8-599e-4512-ad69-b67bcac8deef" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;c5fc3ea8-599e-4512-ad69-b67bcac8deef&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;shutterstock_350002286.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a948167dd31f60c2b5712cfd135eb8bb02241ea4&quot;,&quot;hash&quot;:&quot;a948167dd31f60c2b5712cfd135eb8bb02241ea4&quot;,&quot;__identity&quot;:&quot;83e06349-dfc3-48cd-9f09-4be6c26b427c&quot;}}</image>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="e16515d5-5fd7-4f45-bfcb-30f1eec52f65" nodeName="node-5hya0xnnuryf4">
+      <variant sortingIndex="174" workspace="live" nodeType="Jonnitto.Headline:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:36:09+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">Asset List</title>
+        <tagName __type="string">h2</tagName>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="42de9bf7-7b0e-469d-8a92-f172ffcd48ff" nodeName="node-8t7k2852bs9ul">
+      <variant sortingIndex="329" workspace="live" nodeType="Jonnitto.AssetList:AssetList" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:36:49+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <forceDownload __type="boolean">1</forceDownload>
+        <thumbnail __type="boolean">1</thumbnail>
+        <assets __type="array">
+         <entry0 __type="object" __identifier="e256bfcf-a048-43f0-920c-856776ef6dd1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e256bfcf-a048-43f0-920c-856776ef6dd1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Safari_Mockup_01_v1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;hash&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;__identity&quot;:&quot;49fd2567-71f1-44bd-8bec-e9c6beb14631&quot;}}</entry0>
+         <entry1 __type="object" __identifier="8bf36638-ba61-4d27-8482-4150ef8fdd57" __classname="Neos\Media\Domain\Model\Document" __encoding="json">{&quot;__identity&quot;:&quot;8bf36638-ba61-4d27-8482-4150ef8fdd57&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Document&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Code_Q_AGB.pdf&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;application\/pdf&quot;,&quot;sha1&quot;:&quot;d4ad2fbf80dcef025f7198ab63cad6efea7356ff&quot;,&quot;hash&quot;:&quot;d4ad2fbf80dcef025f7198ab63cad6efea7356ff&quot;,&quot;__identity&quot;:&quot;1dd62d6c-26be-4f79-bb69-99a41c6791b7&quot;}}</entry1>
+         <entry2 __type="object" __identifier="18bf3c88-0aa7-4e16-8458-f24845328eb8" __classname="Neos\Media\Domain\Model\Document" __encoding="json">{&quot;__identity&quot;:&quot;18bf3c88-0aa7-4e16-8458-f24845328eb8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Document&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ZIP Example.zip&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;application\/zip&quot;,&quot;sha1&quot;:&quot;7c15818340f9f178f21483d2a1133759a4999c3c&quot;,&quot;hash&quot;:&quot;7c15818340f9f178f21483d2a1133759a4999c3c&quot;,&quot;__identity&quot;:&quot;0a138dd4-a0d8-4e6f-b8de-5216fd7fba77&quot;}}</entry2>
+        </assets>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="bacf5fbc-5dfd-4c3a-8165-1ae43b518012" nodeName="node-a91sjyq1cazfq">
+      <variant sortingIndex="150" workspace="live" nodeType="Jonnitto.Text:Text" version="10" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-02-21T15:32:00+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <text __type="string">&lt;p&gt;This here should be a regular full grid-width text block.&amp;nbsp;&lt;/p&gt;
 
-		 </dimensions>
-		 <accessRoles __type="array"/>
-		 <properties>
-			<title __type="string">Home</title>
-			<uriPathSegment __type="string">home</uriPathSegment>
-		 </properties>
-		</variant>
-		<node nodeName="main">
-		 <variant workspace="live" nodeType="Neos.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-			<dimensions>
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
 
-			</dimensions>
-			<accessRoles __type="array"/>
-		 </variant>
-		</node>
-	 </node>
-	</nodes>
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2&gt;Headline 2&lt;/h2&gt;
+
+&lt;h3&gt;This here should be a regular full grid-width text block.&amp;nbsp;&lt;/h3&gt;
+
+&lt;h3&gt;Lorem ipsum.&lt;/h3&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h3&gt;Headline 3&lt;/h3&gt;
+
+&lt;h3&gt;This here should be a regular full grid-width text block.&amp;nbsp;&lt;/h3&gt;
+
+&lt;h3&gt;Lorem ipsum.&lt;/h3&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h4&gt;Headline 4&lt;/h4&gt;
+
+&lt;h3&gt;This here should be a regular full grid-width text block.&amp;nbsp;&lt;/h3&gt;
+
+&lt;h3&gt;Lorem ipsum.&lt;/h3&gt;
+</text>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="fc734b20-75b4-44f9-83e0-af97e30d35c4" nodeName="node-a9zkl3dzyx9vr">
+      <variant sortingIndex="302" workspace="live" nodeType="Jonnitto.Headline:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:37:09+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">Asset List with previews</title>
+        <tagName __type="string">h2</tagName>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="d6244ca8-3c51-4909-98ea-d8428d3b6d1a" nodeName="node-cjwfcqks0adcu">
+      <variant sortingIndex="382" workspace="live" nodeType="Jonnitto.PrettyEmbedYoutube:YouTube" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-02-21T16:04:47+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:16:34+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:16:34+00:00</lastPublicationDateTime>
+       <properties>
+        <type __type="string">video</type>
+        <videoID __type="string">cCOL7MC4Pl0</videoID>
+        <showInfo __type="boolean">1</showInfo>
+        <showControls __type="boolean">1</showControls>
+        <allowFullScreen __type="boolean">1</allowFullScreen>
+        <lightbox __type="boolean">1</lightbox>
+        <customPreviewImage __type="object" __identifier="e256bfcf-a048-43f0-920c-856776ef6dd1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e256bfcf-a048-43f0-920c-856776ef6dd1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Safari_Mockup_01_v1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;hash&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;__identity&quot;:&quot;49fd2567-71f1-44bd-8bec-e9c6beb14631&quot;}}</customPreviewImage>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="d6326f23-cd9d-42eb-98dd-4629a0de0c0b" nodeName="node-ecqdbz5303qp7">
+      <variant sortingIndex="393" workspace="live" nodeType="Jonnitto.Headline:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:28+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:50+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:49+00:00</lastPublicationDateTime>
+       <properties>
+        <tagName __type="string">h2</tagName>
+        <title __type="string">Three Column Layout</title>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="13d453ff-753b-49d9-8d37-2c87e5c40a3b" nodeName="node-eefpg52rzt5ap">
+      <variant sortingIndex="113" workspace="live" nodeType="Jonnitto.Headline:Headline" version="11" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:26:58+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">Text Element:</title>
+        <tagName __type="string">h2</tagName>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="2df35c31-a456-4710-9bfb-7490b7e97e4c" nodeName="node-er6l9iq5bm8w7">
+      <variant sortingIndex="75" workspace="live" nodeType="Jonnitto.Headline:Headline" version="9" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T14:24:08+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:07:32+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:07:30+00:00</lastPublicationDateTime>
+       <properties>
+        <tagName __type="string">h1</tagName>
+        <title __type="string"> Style Guide and Example Page</title>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="cd2ee7a9-441c-46a6-b6a1-fa14053d797e" nodeName="node-evwg7hig9qe15">
+      <variant sortingIndex="159" workspace="live" nodeType="Jonnitto.Image:Image" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:28:49+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T17:08:51+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <image __type="object" __identifier="e256bfcf-a048-43f0-920c-856776ef6dd1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e256bfcf-a048-43f0-920c-856776ef6dd1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Safari_Mockup_01_v1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;hash&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;__identity&quot;:&quot;49fd2567-71f1-44bd-8bec-e9c6beb14631&quot;}}</image>
+        <alternativeText __type="string">A alternative text</alternativeText>
+        <bleed __type="boolean"></bleed>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="dfd96431-866d-4cde-8788-55fac304cffb" nodeName="node-hl6kg1857grmv">
+      <variant sortingIndex="356" workspace="live" nodeType="Jonnitto.Headline:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:39:49+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <tagName __type="string">h2</tagName>
+        <title __type="string"> YouTube Video</title>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="878bc82f-ffcc-4b76-9f64-78af39ad2b62" nodeName="node-iukv0daqgu8ds">
+      <variant sortingIndex="419" workspace="live" nodeType="Jonnitto.Headline:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:27:42+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:17+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:28:16+00:00</lastPublicationDateTime>
+       <properties>
+        <tagName __type="string">h2</tagName>
+        <title __type="string">Four Column Layout</title>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="5b161d8c-e8aa-46a8-b116-e3f2f01d902d" nodeName="node-lbewnaogrvuxm">
+      <variant sortingIndex="225" workspace="live" nodeType="Jonnitto.AssetList:AssetList" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:48:23+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <forceDownload __type="boolean">1</forceDownload>
+        <thumbnail __type="boolean"></thumbnail>
+        <assets __type="array">
+         <entry0 __type="object" __identifier="e256bfcf-a048-43f0-920c-856776ef6dd1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e256bfcf-a048-43f0-920c-856776ef6dd1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Safari_Mockup_01_v1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;hash&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;__identity&quot;:&quot;49fd2567-71f1-44bd-8bec-e9c6beb14631&quot;}}</entry0>
+         <entry1 __type="object" __identifier="8bf36638-ba61-4d27-8482-4150ef8fdd57" __classname="Neos\Media\Domain\Model\Document" __encoding="json">{&quot;__identity&quot;:&quot;8bf36638-ba61-4d27-8482-4150ef8fdd57&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Document&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Code_Q_AGB.pdf&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;application\/pdf&quot;,&quot;sha1&quot;:&quot;d4ad2fbf80dcef025f7198ab63cad6efea7356ff&quot;,&quot;hash&quot;:&quot;d4ad2fbf80dcef025f7198ab63cad6efea7356ff&quot;,&quot;__identity&quot;:&quot;1dd62d6c-26be-4f79-bb69-99a41c6791b7&quot;}}</entry1>
+         <entry2 __type="object" __identifier="18bf3c88-0aa7-4e16-8458-f24845328eb8" __classname="Neos\Media\Domain\Model\Document" __encoding="json">{&quot;__identity&quot;:&quot;18bf3c88-0aa7-4e16-8458-f24845328eb8&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Document&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ZIP Example.zip&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;application\/zip&quot;,&quot;sha1&quot;:&quot;7c15818340f9f178f21483d2a1133759a4999c3c&quot;,&quot;hash&quot;:&quot;7c15818340f9f178f21483d2a1133759a4999c3c&quot;,&quot;__identity&quot;:&quot;0a138dd4-a0d8-4e6f-b8de-5216fd7fba77&quot;}}</entry2>
+        </assets>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="847c11a7-68dd-4e12-9416-f0c23f6f2ca8" nodeName="node-ltfypix5oawl0">
+      <variant sortingIndex="157" workspace="live" nodeType="Jonnitto.Headline:Headline" version="8" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:26:53+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <tagName __type="string">h2</tagName>
+        <title __type="string"> Image Element</title>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="caec95e4-4598-49d6-98a9-1c5657e5322f" nodeName="node-pwxadxwmqogru">
+      <variant sortingIndex="171" workspace="live" nodeType="Jonnitto.Headline:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:33:52+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">Linked Full Width Image</title>
+        <tagName __type="string">h2</tagName>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="fa0d8c9a-629e-400c-ac28-07a7cf9fcbcd" nodeName="node-t1dgbvr52knd8">
+      <variant sortingIndex="166" workspace="live" nodeType="Jonnitto.Headline:Headline" version="10" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:26:48+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string"> Full Width Image</title>
+        <tagName __type="string">h2</tagName>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="d91e5d60-63a8-459d-a90c-d5166206e183" nodeName="node-teo75n0daeav0">
+      <variant sortingIndex="363" workspace="live" nodeType="Jonnitto.PrettyEmbedYoutube:YouTube" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:04:59+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:16:34+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:16:34+00:00</lastPublicationDateTime>
+       <properties>
+        <type __type="string">video</type>
+        <videoID __type="string">cCOL7MC4Pl0</videoID>
+        <showInfo __type="boolean"></showInfo>
+        <showControls __type="boolean">1</showControls>
+        <allowFullScreen __type="boolean">1</allowFullScreen>
+        <lightbox __type="boolean"></lightbox>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="f3276e67-12d1-4e90-875f-dfea1054e891" nodeName="node-vicp1svr4h73z">
+      <variant sortingIndex="169" workspace="live" nodeType="Jonnitto.Image:Image" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:26:42+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <image __type="object" __identifier="e256bfcf-a048-43f0-920c-856776ef6dd1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e256bfcf-a048-43f0-920c-856776ef6dd1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Safari_Mockup_01_v1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;hash&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;__identity&quot;:&quot;49fd2567-71f1-44bd-8bec-e9c6beb14631&quot;}}</image>
+        <alternativeText __type="string">A alternative text</alternativeText>
+        <bleed __type="boolean">1</bleed>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="69b05e16-9fde-4ad9-ad14-e2a36c075fa1" nodeName="node-w6jr1npv4ytg6">
+      <variant sortingIndex="163" workspace="live" nodeType="Jonnitto.Image:Image" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T14:25:25+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T17:08:51+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <image __type="object" __identifier="e256bfcf-a048-43f0-920c-856776ef6dd1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e256bfcf-a048-43f0-920c-856776ef6dd1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Safari_Mockup_01_v1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;hash&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;__identity&quot;:&quot;49fd2567-71f1-44bd-8bec-e9c6beb14631&quot;}}</image>
+        <alternativeText __type="string">A alternative text</alternativeText>
+        <link __type="string">https://codeq.at/</link>
+        <bleed __type="boolean"></bleed>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="5aae609f-9bc4-4a4e-87e2-2029e146bafe" nodeName="node-wo59lgm233qe3">
+      <variant sortingIndex="160" workspace="live" nodeType="Jonnitto.Headline:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:28:33+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <tagName __type="string">h2</tagName>
+        <title __type="string">Linked Image Element</title>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="22ae12ee-0ea3-4198-b6f9-bbc8f3bfa182" nodeName="node-ygf7xawu990g1">
+      <variant sortingIndex="388" workspace="live" nodeType="Jonnitto.Headline:Headline" version="10" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T16:18:30+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:50+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T16:20:49+00:00</lastPublicationDateTime>
+       <properties>
+        <tagName __type="string">h2</tagName>
+        <title __type="string">Two Column Layout</title>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="8a143963-873b-4969-ad40-b56f599246f6" nodeName="node-ygzavlwv54ude">
+      <variant sortingIndex="172" workspace="live" nodeType="Jonnitto.Image:Image" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-03-02T15:33:35+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T15:49:34+00:00</lastPublicationDateTime>
+       <properties>
+        <image __type="object" __identifier="e256bfcf-a048-43f0-920c-856776ef6dd1" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e256bfcf-a048-43f0-920c-856776ef6dd1&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Safari_Mockup_01_v1.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;hash&quot;:&quot;5ef66fca9b3929191089db58276e8d9630e64c47&quot;,&quot;__identity&quot;:&quot;49fd2567-71f1-44bd-8bec-e9c6beb14631&quot;}}</image>
+        <alternativeText __type="string">A alternative text</alternativeText>
+        <bleed __type="boolean">1</bleed>
+        <link __type="string">https://codeq.at/</link>
+       </properties>
+      </variant>
+     </node>
+    </node>
+    <node identifier="4967b7e7-bbc8-461f-8797-77f499d5f5fd" nodeName="node-00h8ls04b44bx">
+     <variant sortingIndex="300" workspace="live" nodeType="CodeQ.Site:Document.Page" version="6" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:04:06+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:42:02+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:06:36+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">404</uriPathSegment>
+       <title __type="string">Seite nicht gefunden</title>
+       <hideFromMainMenu __type="boolean">1</hideFromMainMenu>
+       <canonicalLink __type="string"></canonicalLink>
+      </properties>
+     </variant>
+     <node identifier="8ccdac6b-35ed-3b2e-6124-301ea9cb280e" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:04:06+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:06:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:06:36+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="3ec0e606-8fbb-4546-8b1e-4dc87d7988af" nodeName="node-sy9ey777poyho">
+       <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.Text:Text" version="13" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:04:33+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:06:36+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:06:36+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;h2&gt;Seite nicht gefunden&lt;/h2&gt;
+
+&lt;p&gt;Diese Seite existiert leider nicht.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="098c8693-4fbf-4d64-a657-385c5c223b67" nodeName="node-6atjznoqy1oss">
+     <variant sortingIndex="269" workspace="live" nodeType="CodeQ.Site:Document.Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:16:22+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:42:02+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">kontakt</uriPathSegment>
+       <title __type="string">Kontakt</title>
+       <canonicalLink __type="string"></canonicalLink>
+      </properties>
+     </variant>
+     <node identifier="b0b39837-2e2c-050f-b142-c34dcbe71c12" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:16:22+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="9b2c2ffc-221d-427b-b6f2-13961192e900" nodeName="node-8a6ueygiqzsfs">
+       <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.Headline:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:31+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:54+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:53+00:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string"> Example Contact page</title>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="223d0ceb-5642-4a8b-b186-a9592c60f5a4" nodeName="node-f7okccxszf3b5">
+     <variant sortingIndex="275" workspace="live" nodeType="CodeQ.Site:Document.Page" version="5" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:07:04+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:42:02+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">impressum</uriPathSegment>
+       <title __type="string">Impressum</title>
+       <hideFromMainMenu __type="boolean">1</hideFromMainMenu>
+       <canonicalLink __type="string"></canonicalLink>
+      </properties>
+     </variant>
+     <node identifier="fafdba4c-dd33-5ffa-7bd9-f60a531c9639" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:07:04+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="aede1a6b-d7cc-4051-9cad-60745c3b56b8" nodeName="node-pizaq983ftepm">
+     <variant sortingIndex="400" workspace="live" nodeType="CodeQ.ManualPage:ManualPage" version="5" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:09:23+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:42:02+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">erklaerungen</uriPathSegment>
+       <hideFromMainMenu __type="boolean">1</hideFromMainMenu>
+       <title __type="string">Erklärungen</title>
+       <canonicalLink __type="string"></canonicalLink>
+      </properties>
+     </variant>
+     <node identifier="5de04215-b605-08dc-63d0-72cca160d2ff" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:09:23+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="f1bc9276-5516-4361-8921-56a6ea464324" nodeName="node-11bg3tyhxrvr3">
+       <variant sortingIndex="100" workspace="live" nodeType="CodeQ.ManualPage:Text" version="15" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:10:22+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-02-21T19:21:34+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;h2&gt;Neos Anleitung&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lernen.codeq.at/&quot;&gt;Zur Anleitung&lt;/a&gt;&lt;/p&gt;
+</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="3bdc687a-7aa3-47fe-9953-f917dc2f074c" nodeName="node-pzo1yido2a7zg">
+     <variant sortingIndex="263" workspace="live" nodeType="CodeQ.Site:Document.Page" version="5" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:16:08+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:54+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:53+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">subpage</uriPathSegment>
+       <title __type="string">Subpage</title>
+       <canonicalLink __type="string"></canonicalLink>
+      </properties>
+     </variant>
+     <node identifier="85396846-1898-e6af-4f5c-aa6ff95f718c" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-02-21T19:16:09+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:54+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:53+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="19b25a57-6821-4644-b7de-c4e897f2c5c3" nodeName="node-k9xgzytn2gmsz">
+       <variant sortingIndex="100" workspace="live" nodeType="Jonnitto.Headline:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2018-03-02T19:21:09+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:54+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2018-03-02T19:22:53+00:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string"> Example Subpage</title>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+   </node>
+  </nodes>
  </site>
 </root>
