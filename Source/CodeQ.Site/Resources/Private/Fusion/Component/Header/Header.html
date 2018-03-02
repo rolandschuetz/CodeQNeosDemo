@@ -1,4 +1,7 @@
 <header class="codeq-site-header">
-	<a href="{homeLink}">{websiteTitle}</a>
+	<a href="{homeUri}" class="logo">
+		<img src="/_Resources/Static/Packages/CodeQ.Site/Frontend/codeq-logo.svg">
+	</a>
 	{mainMenu -> f:format.raw()}
+	{languageMenu -> f:format.raw()}
 </header>

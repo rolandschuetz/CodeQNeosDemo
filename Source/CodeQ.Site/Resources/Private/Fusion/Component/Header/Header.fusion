@@ -3,5 +3,9 @@ prototype(CodeQ.Site:Component.Header) < prototype(CodeQ.SimpleTemplate:Template
 	homeLink = NodeUri {
 		node = ${site}
 	}
-	websiteTitle = ${Translation.translate('global.title', null, [], null, 'CodeQ.Site')}
+	languageMenu = Neos.Neos:DimensionMenu {
+		@if.hasMultipleLanguages = ${Array.length(Configuration.setting('Neos.ContentRepository.contentDimensions.language.presets')) > 1}
+		dimension = 'language'
+		templatePath = 'resource://CodeQ.Site/Private/Fusion/Component/Header/LanguageNavigation.html'
+	}
 }

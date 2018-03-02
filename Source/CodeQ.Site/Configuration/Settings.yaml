@@ -32,11 +32,11 @@ Neos:
             values:
               - de
             uriSegment: ''
-  #         en:
-  #           label: English
-  #           values:
-  #             - en
-  #           uriSegment: en
+          en:
+            label: English
+            values:
+              - en
+            uriSegment: en
   Neos:
     eventLog:
       enabled: true
