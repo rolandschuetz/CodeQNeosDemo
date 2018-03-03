@@ -13,6 +13,9 @@ var sourcemaps = require('gulp-sourcemaps');
 var inputAssets = [
 ];
 var inputJs = [
+	'./node_modules/jquery/dist/jquery.slim.min.js', // bootstrap dependency
+	'./node_modules/popper.js/dist/umd/popper.js', // bootstrap dependency
+	'./node_modules/bootstrap/dist/js/bootstrap.min.js',
 	'./vendor_js/**/*.js',
 	'./js/**/*.js'
 ];
@@ -51,7 +54,7 @@ gulp.task('js', function () {
 		.pipe(sourcemaps.init())
 		.pipe(concatJs('index.js'))
 		.pipe(uglify())
-		.pipe(sourcemaps.write())
+		.pipe(sourcemaps.write('.'))
 		.pipe(gulp.dest(output));
 });
 
@@ -67,7 +70,7 @@ gulp.task('sass', function () {
 		.pipe(sass(sassOptions).on('error', sass.logError))
 		.pipe(autoprefixer())
 		.pipe(cssnano())
-		.pipe(sourcemaps.write())
+		.pipe(sourcemaps.write('.'))
 		.pipe(gulp.dest(output))
 		.pipe(browserSync.stream());
 });
