@@ -530,7 +530,7 @@
             "dist": {
                 "type": "path",
                 "url": "Source/CodeQ.Site",
-                "reference": "e935809cea746d87ccf428a6c8f917f511fa25c0",
+                "reference": "ddfadd1ab6e12171d61b06fd110eaecdc608e645",
                 "shasum": null
             },
             "require": {
@@ -542,6 +542,7 @@
                 "codeq/manualpage": "~1.2",
                 "codeq/simpletemplate": "*",
                 "codeq/unicodenormalizer": "~2.0",
+                "flownative/beach-flow-companion": "1.*",
                 "jonnitto/assetlist": "^2.1",
                 "jonnitto/headline": "^1.0",
                 "jonnitto/image": "^1.0",
@@ -549,7 +550,6 @@
                 "jonnitto/prettyembedyoutube": "^4.0",
                 "jonnitto/sitemap": "^3.1",
                 "jonnitto/text": "^0.1.5",
-                "moc/imageoptimizer": "^3.0",
                 "moc/notfound": "^3.0",
                 "neos/googleanalytics": "^2.0",
                 "neos/neos": "^3.3",
@@ -1352,6 +1352,116 @@
                 "orm"
             ],
             "time": "2017-12-17 02:57:51"
+        },
+        {
+            "name": "flownative/beach-flow-companion",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flownative/beach-flow-companion.git",
+                "reference": "32f09cb4d35d5bfb3652930bebd259fb09ffe64c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flownative/beach-flow-companion/zipball/32f09cb4d35d5bfb3652930bebd259fb09ffe64c",
+                "reference": "32f09cb4d35d5bfb3652930bebd259fb09ffe64c",
+                "shasum": ""
+            },
+            "require": {
+                "neos/flow": "~4.0 || dev-master"
+            },
+            "type": "neos-package",
+            "extra": {
+                "applied-flow-migrations": [
+                    "TYPO3.FLOW3-201201261636",
+                    "TYPO3.Fluid-201205031303",
+                    "TYPO3.FLOW3-201205292145",
+                    "TYPO3.FLOW3-201206271128",
+                    "TYPO3.FLOW3-201209201112",
+                    "TYPO3.Flow-201209251426",
+                    "TYPO3.Flow-201211151101",
+                    "TYPO3.Flow-201212051340",
+                    "TYPO3.Flow-201310031523",
+                    "TYPO3.Flow-201405111147",
+                    "TYPO3.Fluid-20141113120800",
+                    "TYPO3.Flow-20141113121400",
+                    "TYPO3.Fluid-20141121091700",
+                    "TYPO3.Fluid-20150214130800",
+                    "TYPO3.Flow-20151113161300",
+                    "TYPO3.Flow-20161115140400",
+                    "TYPO3.Flow-20161115140430",
+                    "Neos.Flow-20161124204700",
+                    "Neos.Flow-20161124204701",
+                    "Neos.Flow-20161124224015",
+                    "Neos.Eel-20161124230101",
+                    "Neos.Kickstart-20161124230102",
+                    "Neos.Imagine-20161124231742",
+                    "Neos.Media-20161124233100",
+                    "Neos.Kickstarter-20161125110814",
+                    "TYPO3.TypoScript-130516234520",
+                    "TYPO3.TypoScript-130516235550",
+                    "TYPO3.TYPO3CR-130523180140",
+                    "TYPO3.Neos.NodeTypes-201309111655",
+                    "TYPO3.Neos-201407061038",
+                    "TYPO3.Neos-201409071922",
+                    "TYPO3.TYPO3CR-140911160326",
+                    "TYPO3.Neos-201410010000",
+                    "TYPO3.TYPO3CR-141101082142",
+                    "TYPO3.Neos-20141113115300",
+                    "TYPO3.Neos-20141218134700",
+                    "TYPO3.Neos-20150303231600",
+                    "TYPO3.TYPO3CR-20150510103823",
+                    "TYPO3.Form-20160601101500",
+                    "Neos.Twitter.Bootstrap-20161124204912",
+                    "Neos.Form-20161124205254",
+                    "Neos.Party-20161124225257",
+                    "Neos.Setup-20161124230842",
+                    "Neos.NodeTypes-20161125002300",
+                    "Neos.Neos-20161125002322",
+                    "Neos.ContentRepository-20161125012000",
+                    "Neos.Fusion-20161125013710",
+                    "Neos.Setup-20161125014759",
+                    "Neos.Fusion-20161125104701",
+                    "Neos.NodeTypes-20161125104800",
+                    "Neos.Neos-20161125104802",
+                    "Neos.Neos-20161125122412",
+                    "Neos.Flow-20161125124112",
+                    "Neos.SwiftMailer-20161130105617",
+                    "TYPO3.FluidAdaptor-20161130112935",
+                    "Neos.Fusion-20161201202543",
+                    "Neos.Neos-20161201222211",
+                    "Neos.Fusion-20161202215034",
+                    "Neos.Fusion-20161219092345",
+                    "Neos.ContentRepository-20161219093512",
+                    "Neos.Media-20161219094126",
+                    "Neos.Neos-20161219094403",
+                    "Neos.Neos-20161219122512",
+                    "Neos.Fusion-20161219130100",
+                    "Neos.Neos-20161220163741",
+                    "Neos.Neos-20170115114620",
+                    "Neos.Fusion-20170120013047",
+                    "Neos.Flow-20170125103800",
+                    "Neos.Seo-20170127154600",
+                    "Neos.Flow-20170127183102"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flownative\\BeachFlowCompanion\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Lemke",
+                    "email": "robert@flownative.com"
+                }
+            ],
+            "description": "Useful configuration and tools for Flownative Beach projects",
+            "time": "2017-10-11 16:01:18"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -2543,7 +2653,7 @@
         },
         {
             "name": "neos/content-repository",
-            "version": "3.3.6",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/typo3cr.git",
@@ -2657,7 +2767,7 @@
         },
         {
             "name": "neos/diff",
-            "version": "3.3.6",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/diff.git",
@@ -3014,7 +3124,7 @@
         },
         {
             "name": "neos/fusion",
-            "version": "3.3.6",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/typoscript.git",
@@ -3306,7 +3416,7 @@
         },
         {
             "name": "neos/media",
-            "version": "3.3.6",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/media.git",
@@ -3418,16 +3528,16 @@
         },
         {
             "name": "neos/media-browser",
-            "version": "3.3.6",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/media-browser.git",
-                "reference": "59f1ba28584c725402e563a1421adf17182972de"
+                "reference": "5088ce4daa08981a46eced3a5e77a24729ed102e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/media-browser/zipball/59f1ba28584c725402e563a1421adf17182972de",
-                "reference": "59f1ba28584c725402e563a1421adf17182972de",
+                "url": "https://api.github.com/repos/neos/media-browser/zipball/5088ce4daa08981a46eced3a5e77a24729ed102e",
+                "reference": "5088ce4daa08981a46eced3a5e77a24729ed102e",
                 "shasum": ""
             },
             "require": {
@@ -3519,20 +3629,20 @@
                 "GPL-3.0-or-later"
             ],
             "description": "This module allows managing of media assets including pictures, videos, audio and documents.",
-            "time": "2018-02-23 11:31:02"
+            "time": "2018-03-05 04:12:08"
         },
         {
             "name": "neos/neos",
-            "version": "3.3.6",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos.git",
-                "reference": "bd335f865e879783ca6d1059f831133e8b7ca7a4"
+                "reference": "727dc2aa9ed57b380b39c7cce9a097a3777805c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos/zipball/bd335f865e879783ca6d1059f831133e8b7ca7a4",
-                "reference": "bd335f865e879783ca6d1059f831133e8b7ca7a4",
+                "url": "https://api.github.com/repos/neos/neos/zipball/727dc2aa9ed57b380b39c7cce9a097a3777805c6",
+                "reference": "727dc2aa9ed57b380b39c7cce9a097a3777805c6",
                 "shasum": ""
             },
             "require": {
@@ -3650,7 +3760,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "An open source Content Application Platform based on Flow. A set of core Content Management features is resting within a larger context that allows you to build a perfectly customized experience for your users.",
-            "time": "2018-02-23 11:41:32"
+            "time": "2018-03-05 14:53:20"
         },
         {
             "name": "neos/neos-ui",
@@ -3791,16 +3901,16 @@
         },
         {
             "name": "neos/nodetypes-basemixins",
-            "version": "3.3.6",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/nodetypes-basemixins.git",
-                "reference": "b16356579d1796c25d27afa2dee5cfab28c7d98c"
+                "reference": "a3a9918770936cc2fa8a3b6319d88ad07b1f392b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/nodetypes-basemixins/zipball/b16356579d1796c25d27afa2dee5cfab28c7d98c",
-                "reference": "b16356579d1796c25d27afa2dee5cfab28c7d98c",
+                "url": "https://api.github.com/repos/neos/nodetypes-basemixins/zipball/a3a9918770936cc2fa8a3b6319d88ad07b1f392b",
+                "reference": "a3a9918770936cc2fa8a3b6319d88ad07b1f392b",
                 "shasum": ""
             },
             "require": {
@@ -3893,20 +4003,20 @@
                 "GPL-3.0-or-later"
             ],
             "description": "Base mixins which are useful across projects.",
-            "time": "2018-02-03 00:22:41"
+            "time": "2018-03-04 01:52:15"
         },
         {
             "name": "neos/nodetypes-contentreferences",
-            "version": "3.3.6",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/nodetypes-contentreferences.git",
-                "reference": "7fe0d58cf6ce8a09b5b954eefc91f41ffbc12915"
+                "reference": "6a9f83a0426d459eadc2930e08a330a6199641da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/nodetypes-contentreferences/zipball/7fe0d58cf6ce8a09b5b954eefc91f41ffbc12915",
-                "reference": "7fe0d58cf6ce8a09b5b954eefc91f41ffbc12915",
+                "url": "https://api.github.com/repos/neos/nodetypes-contentreferences/zipball/6a9f83a0426d459eadc2930e08a330a6199641da",
+                "reference": "6a9f83a0426d459eadc2930e08a330a6199641da",
                 "shasum": ""
             },
             "require": {
@@ -3999,7 +4109,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "A simple content reference node type.",
-            "time": "2018-01-24 14:31:08"
+            "time": "2018-03-04 01:52:15"
         },
         {
             "name": "neos/party",
@@ -5316,7 +5426,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.35",
+            "version": "v2.8.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -5434,7 +5544,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v2.8.35",
+            "version": "v2.8.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
@@ -5549,7 +5659,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.35",
+            "version": "v2.8.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
