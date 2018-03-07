@@ -47,27 +47,35 @@
 
 <body class>
     <header class="codeq-site-header">
-        <a href="" class="logo">
-		<img src="/_Resources/Static/Packages/CodeQ.Site/Frontend/img/codeq-logo.svg">
-	</a>
-        <a href="/" class="Navigation-item Navigation-itemLevel0 isCurrent isActive">Home</a><a href="/subpage" class="Navigation-item Navigation-itemLevel1">Subpage</a><a href="/kontakt" class="Navigation-item Navigation-itemLevel1">Kontakt</a>
-
+		<div id="logo-holder">
+			<a href="" class="logo">
+				<img src="/_Resources/Static/Packages/CodeQ.Site/Frontend/img/codeq-logo.svg">
+			</a>
+		</div>
+		<div id="site-navigation-holder">
+			<ul>
+				<li>
+	        		<a href="/" class="Navigation-item Navigation-itemLevel0 isCurrent isActive">Home</a>
+				</li>
+				<li>
+					<a href="/subpage" class="Navigation-item Navigation-itemLevel1">Subpage</a>
+				</li>
+				<li>
+					<a href="/kontakt" class="Navigation-item Navigation-itemLevel1">Kontakt</a>
+				</li>
+			</ul>
+		</div>
+		<div id="language-navigation-holder">
         <ul class="language-navigation">
             <li>
-
-
                 <a class="active" href="/">de</a> |
-
-
-
+            </li>
+            <li>
                 <a href="/">en</a>
-
-
-
-
             </li>
         </ul>
 
+		</div>
     </header>
 
     <div class="neos-contentcollection">
@@ -214,12 +222,22 @@
 
 
     <footer class="codeq-site-footer">
-        <div>
-            <div>Custom Footer text can be written here</div>
+        <div class="footer-text-custom">
+            <span>Custom Footer text can be written here</span>
         </div>
-        <div>&copy; 2018</div>
-
-        <a href="/kontakt" class="link-node">Kontakt</a><a href="/impressum" class="link-node">Impressum</a>
+        <div class="footer-text-custom">
+			<span>&copy; 2018</span>
+		</div>
+		<div id="footer-navigation-holder">
+			<ul>
+				<li>
+	        		<a href="/kontakt" class="link-node">Kontakt</a>
+				</li>
+				<li>
+					<a href="/impressum" class="link-node">Impressum</a>
+				</li>
+			</ul>
+		</div>
     </footer>
 
     <script async src="/_Resources/Static/Packages/Jonnitto.PrettyEmbedYoutube/Main.js"></script>

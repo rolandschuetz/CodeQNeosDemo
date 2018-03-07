@@ -6,6 +6,7 @@ This frontend follows the [Code Q HTML-Template Code Guidelines](https://docs.go
 
 ```
 cd Packages/Sites/CodeQ.Site/Resources/Public/Frontend
+npm install --global gulp-cli
 npm install
 gulp
 ```
