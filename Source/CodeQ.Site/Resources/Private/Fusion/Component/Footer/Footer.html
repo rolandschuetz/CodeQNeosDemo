@@ -1,7 +1,15 @@
 {namespace neos = Neos\Neos\ViewHelpers}
 <footer class="codeq-site-footer">
-	<div>{footerInfo -> f:format.raw()}</div>
-	<div>&copy; {year}</div>
+	<div class="footer-text-custom">
+		{footerInfo -> f:format.raw()}
+	</div>
+	<div class="footer-text-custom">
+		<span>&copy; {year}</span>
+	</div>
 
-	{footerItems -> f:format.raw()}
+	<div id="footer-navigation-holder">
+		<ul>
+			{footerItems -> f:format.raw()}
+		</ul>
+	</div>
 </footer>

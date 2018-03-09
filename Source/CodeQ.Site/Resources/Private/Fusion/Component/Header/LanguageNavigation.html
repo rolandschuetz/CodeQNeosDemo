@@ -1,19 +1,21 @@
 {namespace neos = Neos\Neos\ViewHelpers}
-<ul class="language-navigation">
-	<li>
-		<f:for each="{items}" as="item" iteration='iter'>
-			<f:if condition="{item.state} == 'current'">
-				<f:then>
-					<neos:link.node node="{item.node}" class="active">{item.targetDimensions.language.value}</neos:link.node>
-				</f:then>
-				<f:else>
-					<neos:link.node node="{item.node}">{item.targetDimensions.language.value}</neos:link.node>
-				</f:else>
-			</f:if>
+<div id="language-navigation-holder">
+	<ul class="language-navigation">
+		<li>
+			<f:for each="{items}" as="item" iteration='iter'>
+				<f:if condition="{item.state} == 'current'">
+					<f:then>
+						<neos:link.node node="{item.node}" class="active">{item.targetDimensions.language.value}</neos:link.node>
+					</f:then>
+					<f:else>
+						<neos:link.node node="{item.node}">{item.targetDimensions.language.value}</neos:link.node>
+					</f:else>
+				</f:if>
 
-			<f:if condition="!{iter.isLast}">
-				|
-			</f:if>
-		</f:for>
-	</li>
-</ul>
+				<f:if condition="!{iter.isLast}">
+					|
+				</f:if>
+			</f:for>
+		</li>
+	</ul>
+</div>

@@ -1,6 +1,12 @@
-prototype(CodeQ.Site:Component.Navigation) < prototype(Neos.Fusion:Value) {
+prototype(CodeQ.Site:Component.Navigation) < prototype(Neos.Fusion:Tag) {
 	@context.node = ${site}
-	value = CodeQ.Site:Component.Navigation.LevelRenderer
+
+	attributes.id = 'site-navigation-holder'
+	content = Neos.Fusion:Tag {
+		tagName = 'ul'
+		content = CodeQ.Site:Component.Navigation.LevelRenderer
+	}
+
 	@cache {
 		mode = 'cached'
 		entryIdentifier.node = ${documentNode}

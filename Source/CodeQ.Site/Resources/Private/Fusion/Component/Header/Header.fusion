@@ -1,8 +1,8 @@
 prototype(CodeQ.Site:Component.Header) < prototype(CodeQ.SimpleTemplate:Template) {
-	mainMenu = CodeQ.Site:Component.Navigation
-	homeLink = NodeUri {
+	homeUri = NodeUri {
 		node = ${site}
 	}
+	mainMenu = CodeQ.Site:Component.Navigation
 	languageMenu = Neos.Neos:DimensionMenu {
 		@if.hasMultipleLanguages = ${Array.length(Configuration.setting('Neos.ContentRepository.contentDimensions.language.presets')) > 1}
 		dimension = 'language'

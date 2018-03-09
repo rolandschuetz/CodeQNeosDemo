@@ -2,6 +2,7 @@ prototype(CodeQ.Site:Component.Footer) < prototype(CodeQ.SimpleTemplate:Template
 	@context.node = ${site}
 	year = ${Date.format(Date.now(), 'Y')}
 	footerInfo = Neos.Fusion:Tag {
+		tagName = 'span'
 		content = ${site.properties.footerInfo}
 		content.@process.convertUris = Neos.Neos:ConvertUris
 		@process.contentElementEditable = ContentElementEditable {
@@ -11,8 +12,11 @@ prototype(CodeQ.Site:Component.Footer) < prototype(CodeQ.SimpleTemplate:Template
 	footerItems = Neos.Fusion:Collection {
 		collection = ${site.properties.footerItems}
 		itemName = 'node'
-		itemRenderer = Carbon.Link:Link {
-			node = ${node}
+		itemRenderer = Neos.Fusion:Tag {
+			tagName = 'li'
+			content = Carbon.Link:Link {
+				node = ${node}
+			}
 		}
 	}
 
