@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec /application/flow cache:flushone Neos_Fusion_Content
+/application/flow cache:flushone Neos_Fusion_Content
