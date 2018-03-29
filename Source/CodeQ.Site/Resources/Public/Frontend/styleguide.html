@@ -46,13 +46,16 @@
 </head>
 
 <body class>
-    <header class="codeq-site-header">
+    <header id="codeq-site-header">
 		<div id="logo-holder">
 			<a href="/" class="logo">
 				<img src="/_Resources/Static/Packages/CodeQ.Site/Frontend/img/codeq-logo.svg">
 			</a>
 		</div>
-		<div id="site-navigation-holder">
+		<div id="site-navigation-holder" class="mobile-navigation-closed">
+            <div id="mobile-navigation-button">
+                <span>Menü</span>
+            </div>
 			<ul>
 				<li>
 	        		<a href="/" class="Navigation-item Navigation-itemLevel0 isCurrent isActive">Home</a>
@@ -64,21 +67,21 @@
 					<a href="/kontakt" class="Navigation-item Navigation-itemLevel1">Kontakt</a>
 				</li>
 			</ul>
+            <div id="language-navigation-holder">
+                <ul class="language-navigation">
+                    <li>
+                        <a class="active" href="/">de</a>
+                    </li>
+                    <li>
+                        <a href="/">en</a>
+                    </li>
+                </ul>
+            </div>
 		</div>
-		<div id="language-navigation-holder">
-        <ul class="language-navigation">
-            <li>
-                <a class="active" href="/">de</a> |
-            </li>
-            <li>
-                <a href="/">en</a>
-            </li>
-        </ul>
 
-		</div>
     </header>
 
-    <div class="neos-contentcollection">
+    <div class="main-contentcollection neos-contentcollection">
         <h1 class="jonnitto-headline container"><span> Style Guide and Example Page</span></h1>
         <h2 class="jonnitto-headline container"><span>Text Element:</span></h2>
         <div class="jonnitto-text container">

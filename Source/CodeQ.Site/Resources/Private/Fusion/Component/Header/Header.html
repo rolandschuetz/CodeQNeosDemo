@@ -1,10 +1,15 @@
-<header class="codeq-site-header">
+<header id="codeq-site-header">
 	<div id="logo-holder">
 		<a href="{homeUri}" class="logo">
 			<img src="/_Resources/Static/Packages/CodeQ.Site/Frontend/img/codeq-logo.svg">
 		</a>
 	</div>
 
-	{mainMenu -> f:format.raw()}
-	{languageMenu -> f:format.raw()}
+	<div id="site-navigation-holder" class="mobile-navigation-closed">
+		<div id="mobile-navigation-button">
+            <span>{f:translate(id: 'global.menu', value: 'Menu', package: 'CodeQ.Site')}</span>
+        </div>
+		{mainMenu -> f:format.raw()}
+		{languageMenu -> f:format.raw()}
+	</div>
 </header>
