@@ -1,0 +1,16 @@
+.unstyle-list {
+	ul {
+		padding-left: 0px;
+
+		li {
+			list-style: none;
+			display: inline-block;
+		}
+		@media (max-width: $screen-sm-min) {
+			li {
+				display: block;
+				text-align: center;
+			}
+		}
+	}
+}
