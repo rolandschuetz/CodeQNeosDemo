@@ -62,3 +62,6 @@ Flow_Security_Cryptography_HashService:
     port: '6379'
     database: 8
     defaultLifetime: 0
+
+Neos_GoogleAnalytics_Tokens:
+  backend: Flownative\BeachFlowCompanion\Cache\PdoBackend
