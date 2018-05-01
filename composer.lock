@@ -464,16 +464,16 @@
         },
         {
             "name": "codeq/manualpage",
-            "version": "v1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rolandschuetz/neos-manualpage.git",
-                "reference": "1bdb5da95f80aa92146e11fb033cf525922fbc42"
+                "reference": "02145ff92772c770888693c7591be35263013f88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rolandschuetz/neos-manualpage/zipball/1bdb5da95f80aa92146e11fb033cf525922fbc42",
-                "reference": "1bdb5da95f80aa92146e11fb033cf525922fbc42",
+                "url": "https://api.github.com/repos/rolandschuetz/neos-manualpage/zipball/02145ff92772c770888693c7591be35263013f88",
+                "reference": "02145ff92772c770888693c7591be35263013f88",
                 "shasum": ""
             },
             "require": {
@@ -491,7 +491,7 @@
                 "GPL-3.0+"
             ],
             "description": "A backend manual page",
-            "time": "2017-11-22T21:36:23+00:00"
+            "time": "2018-05-01T22:15:07+00:00"
         },
         {
             "name": "codeq/replacewithshy",
