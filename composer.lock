@@ -149,20 +149,20 @@
         },
         {
             "name": "carbon/filecontent",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonnitto/Carbon.FileContent.git",
-                "reference": "fabe5f5aad56b8630b16af395fdefb5b695e34b6"
+                "reference": "c3fe32cee78a7db5625e45683fa4a77d3679e801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonnitto/Carbon.FileContent/zipball/fabe5f5aad56b8630b16af395fdefb5b695e34b6",
-                "reference": "fabe5f5aad56b8630b16af395fdefb5b695e34b6",
+                "url": "https://api.github.com/repos/jonnitto/Carbon.FileContent/zipball/c3fe32cee78a7db5625e45683fa4a77d3679e801",
+                "reference": "c3fe32cee78a7db5625e45683fa4a77d3679e801",
                 "shasum": ""
             },
             "require": {
-                "neos/neos": "~3.0 || dev-master"
+                "neos/neos": "~3.0 || ~4.0"
             },
             "type": "neos-plugin",
             "extra": {
@@ -190,7 +190,7 @@
                 }
             ],
             "description": "Include file content helper for Neos CMS",
-            "time": "2017-12-07T09:48:38+00:00"
+            "time": "2018-04-29T19:02:58+00:00"
         },
         {
             "name": "carbon/image",
@@ -495,20 +495,20 @@
         },
         {
             "name": "codeq/replacewithshy",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rolandschuetz/neos-replace-with-shy.git",
-                "reference": "9d391d9ca691f5058dfcd84e074d6645f6c74933"
+                "reference": "c26b50d9f08e49dab60a6bc705f2d025217cce06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rolandschuetz/neos-replace-with-shy/zipball/9d391d9ca691f5058dfcd84e074d6645f6c74933",
-                "reference": "9d391d9ca691f5058dfcd84e074d6645f6c74933",
+                "url": "https://api.github.com/repos/rolandschuetz/neos-replace-with-shy/zipball/c26b50d9f08e49dab60a6bc705f2d025217cce06",
+                "reference": "c26b50d9f08e49dab60a6bc705f2d025217cce06",
                 "shasum": ""
             },
             "require": {
-                "neos/neos": "~3.0 || dev-master"
+                "neos/neos": "~2.0 || ~3.0 || ~4.0 || dev-master"
             },
             "type": "neos-package",
             "extra": {
@@ -595,7 +595,7 @@
                 "MIT"
             ],
             "description": "Replace || with &shy;",
-            "time": "2018-04-28T18:14:56+00:00"
+            "time": "2018-04-30T13:22:16+00:00"
         },
         {
             "name": "codeq/simpletemplate",
@@ -1809,16 +1809,16 @@
         },
         {
             "name": "jonnitto/headline",
-            "version": "1.0.5",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonnitto/Jonnitto.Headline.git",
-                "reference": "cd41c56c8370892a89059e6de7b29fa5ecd4d6ac"
+                "reference": "059d9bb586d04cda2841e48ac5caebb67eb53305"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonnitto/Jonnitto.Headline/zipball/cd41c56c8370892a89059e6de7b29fa5ecd4d6ac",
-                "reference": "cd41c56c8370892a89059e6de7b29fa5ecd4d6ac",
+                "url": "https://api.github.com/repos/jonnitto/Jonnitto.Headline/zipball/059d9bb586d04cda2841e48ac5caebb67eb53305",
+                "reference": "059d9bb586d04cda2841e48ac5caebb67eb53305",
                 "shasum": ""
             },
             "require": {
@@ -1856,7 +1856,7 @@
                 "flow",
                 "headline"
             ],
-            "time": "2017-11-02T15:34:52+00:00"
+            "time": "2017-12-07T09:50:23+00:00"
         },
         {
             "name": "jonnitto/image",
@@ -1912,20 +1912,20 @@
         },
         {
             "name": "jonnitto/multicolumn",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonnitto/Jonnitto.MultiColumn.git",
-                "reference": "37c0dd0c8594f16db7fdf6d2439d15f6522416d0"
+                "reference": "9f114187497512316aab8fdfa535543051d2d8c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonnitto/Jonnitto.MultiColumn/zipball/37c0dd0c8594f16db7fdf6d2439d15f6522416d0",
-                "reference": "37c0dd0c8594f16db7fdf6d2439d15f6522416d0",
+                "url": "https://api.github.com/repos/jonnitto/Jonnitto.MultiColumn/zipball/9f114187497512316aab8fdfa535543051d2d8c0",
+                "reference": "9f114187497512316aab8fdfa535543051d2d8c0",
                 "shasum": ""
             },
             "require": {
-                "neos/neos": "~3.0 || dev-master"
+                "neos/neos": "~3.0 || ~4.0"
             },
             "type": "typo3-flow-plugin",
             "extra": {
@@ -2034,7 +2034,7 @@
                 "multicolumn",
                 "nodetypes"
             ],
-            "time": "2017-10-22T20:53:14+00:00"
+            "time": "2018-04-29T20:56:43+00:00"
         },
         {
             "name": "jonnitto/plyr",
@@ -2294,20 +2294,20 @@
         },
         {
             "name": "jonnitto/sitemap",
-            "version": "3.1.1",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonnitto/Jonnitto.Sitemap.git",
-                "reference": "c2dd2541718cf07d4f9396a4865b40c021ec0fd4"
+                "reference": "5d4f671de251612d9314a718dfe7d01a19108bce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonnitto/Jonnitto.Sitemap/zipball/c2dd2541718cf07d4f9396a4865b40c021ec0fd4",
-                "reference": "c2dd2541718cf07d4f9396a4865b40c021ec0fd4",
+                "url": "https://api.github.com/repos/jonnitto/Jonnitto.Sitemap/zipball/5d4f671de251612d9314a718dfe7d01a19108bce",
+                "reference": "5d4f671de251612d9314a718dfe7d01a19108bce",
                 "shasum": ""
             },
             "require": {
-                "neos/neos": "~3.0 || dev-master",
+                "neos/neos": "~3.0 || ~4.0",
                 "neos/seo": "*"
             },
             "type": "neos-plugin",
@@ -2405,7 +2405,7 @@
                 }
             ],
             "description": "XML-Sitemap for Neos CMS with some improvements",
-            "time": "2017-10-24T14:54:48+00:00"
+            "time": "2018-04-29T21:27:10+00:00"
         },
         {
             "name": "jonnitto/text",
@@ -5451,16 +5451,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.38",
+            "version": "v2.8.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "7f78892d900c72a40acd1fe793c856ef0c110f26"
+                "reference": "932d1e4f7f33ee37d3534f5f452474daa66283c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/7f78892d900c72a40acd1fe793c856ef0c110f26",
-                "reference": "7f78892d900c72a40acd1fe793c856ef0c110f26",
+                "url": "https://api.github.com/repos/symfony/console/zipball/932d1e4f7f33ee37d3534f5f452474daa66283c2",
+                "reference": "932d1e4f7f33ee37d3534f5f452474daa66283c2",
                 "shasum": ""
             },
             "require": {
@@ -5474,7 +5474,7 @@
                 "symfony/process": "~2.1|~3.0.0"
             },
             "suggest": {
-                "psr/log": "For using the console logger",
+                "psr/log-implementation": "For using the console logger",
                 "symfony/event-dispatcher": "",
                 "symfony/process": ""
             },
@@ -5508,7 +5508,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-03T05:20:27+00:00"
+            "time": "2018-04-30T01:21:07+00:00"
         },
         {
             "name": "symfony/debug",
@@ -5569,7 +5569,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v2.8.38",
+            "version": "v2.8.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
@@ -5625,16 +5625,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
+                "reference": "3296adf6a6454a050679cde90f95350ad604b171"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
-                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
+                "reference": "3296adf6a6454a050679cde90f95350ad604b171",
                 "shasum": ""
             },
             "require": {
@@ -5646,7 +5646,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.7-dev"
+                    "dev-master": "1.8-dev"
                 }
             },
             "autoload": {
@@ -5680,20 +5680,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-01-30T19:27:44+00:00"
+            "time": "2018-04-26T10:06:28+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.38",
+            "version": "v2.8.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "be720fcfae4614df204190d57795351059946a77"
+                "reference": "d20bd2bdee063863e426297af41eda45ccad6f7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/be720fcfae4614df204190d57795351059946a77",
-                "reference": "be720fcfae4614df204190d57795351059946a77",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/d20bd2bdee063863e426297af41eda45ccad6f7e",
+                "reference": "d20bd2bdee063863e426297af41eda45ccad6f7e",
                 "shasum": ""
             },
             "require": {
@@ -5729,7 +5729,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:36:31+00:00"
+            "time": "2018-04-08T07:53:13+00:00"
         },
         {
             "name": "ttree/eelshell",
