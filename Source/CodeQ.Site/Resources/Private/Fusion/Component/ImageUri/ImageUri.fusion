@@ -1,6 +1,16 @@
 prototype(CodeQ.Site:Component.ImageUri) < prototype(Neos.Fusion:Case) {
+	@context {
+		asset = ${this.asset}
+		width = ${this.width}
+		height = ${this.height}
+		quality = ${this.quality}
+		maximumWidth = ${this.maximumWidth}
+		maximumHeight = ${this.maximumHeight}
+		allowCropping = ${this.allowCropping}
+		allowUpscaling = ${this.allowUpscaling}
+	}
 	image {
-		condition = ${asset}
+		condition = ${asset ? true : false}
 		renderer = ImageUri {
 			asset = ${asset}
 			width = ${width}

@@ -41,6 +41,10 @@ Neos:
       enabled: true
     userInterface:
       defaultLanguage: de
+      translation:
+        autoInclude:
+            - Main
+            - 'NodeTypes/*'
       backendLoginForm:
         stylesheets:
           'CodeQ.LoginTheme:Styles2': 'resource://CodeQ.LoginTheme/Public/css/neos-login-codeq-q.css'
@@ -61,6 +65,11 @@ Neos:
           title: 'Handy'
           width: 360px
           height: 640px
+      navigateComponent:
+        nodeTree:
+          loadingDepth: 1
+        structureTree:
+          loadingDepth: 2
     fusion:
       autoInclude:
         CodeQ.Site: true
@@ -92,7 +101,7 @@ Sitegeist:
         ReadmeSections:
           options:
             requiredSections:
-              - 'Server'
+              - 'Hosting'
               - false
               - false
               - false
